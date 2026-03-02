@@ -69,33 +69,33 @@
 - Jupyter Notebook
 - PostgreSQL (для подключения к базе данных)
 
-### Установка и запуск
+## Установка и запуск
 
 bash
-# 1. Клонировать репозиторий
+## 1. Клонировать репозиторий
 - git clone https://github.com/so-baka/second_module_ds_project.git
 - cd second_module_ds_project
 
-# 2. Создать виртуальное окружение (рекомендуется)
+## 2. Создать виртуальное окружение (рекомендуется)
 - python -m venv venv
 
-# 3. Активировать окружение
+## 3. Активировать окружение
 - Для Windows:
    - venv\Scripts\activate
 - Для Linux/Mac:
    - source venv/bin/activate
 
-# 4. Установить зависимости
+## 4. Установить зависимости
 - pip install -r requirements.txt
 
-# 5. Создать файл .env на основе примера
+## 5. Создать файл .env на основе примера
 - cp .env.example .env
 -  Отредактировать .env, указав свои параметры подключения к БД
 
-# 6. Запустить Jupyter Notebook
+## 6. Запустить Jupyter Notebook
 - jupyter notebook
 
-# 7. Используемые технологии
+## 7. Используемые технологии
 
     Python (Pandas, NumPy) — обработка данных
 
@@ -109,7 +109,7 @@ bash
 
     Jupyter Notebook — среда разработки
 
-# 8. Контакты
+## 8. Контакты
 
 - Автор: Антон Якушев
 - GitHub: so-baka
